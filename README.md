@@ -99,7 +99,7 @@ The core innovation of this proposal is the mechanical system for converting the
 - **Slag Bin:** Collection vessel for molten iron/alumina; serves as Phase II hydrogen reactor when steam is injected.
 - **Condenser:** Captures and condenses steam for fresh water production.
 
-![Figure 1](images/figure-1.png)
+![Figure 1](figure-1.png)
 
 *Figure 1: Iron Heart system schematic showing all major components and flow paths.*
 
@@ -181,7 +181,7 @@ A Python-based simulation was developed to model the coupled thermodynamic and f
 
 ### 4.3 Results
 
-![Figure 2](images/figure-2.png)
+![Figure 2](figure-2.png)
 
 *Figure 2: Time-series results from single pulse simulation showing water column dynamics, pressures, steam mass, and energy flows.*
 
@@ -204,7 +204,7 @@ A Python-based simulation was developed to model the coupled thermodynamic and f
 
 A parameter sweep was conducted varying pebble mass from 5g to 30g to understand scaling behavior:
 
-![Figure 3](images/figure-3.png)
+![Figure 3](figure-3.png)
 
 *Figure 3: Parameter sweep showing effect of pebble mass on efficiency, pressure, displacement, and energy output.*
 
