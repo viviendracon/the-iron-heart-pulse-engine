@@ -68,11 +68,8 @@ This represents the firing chamber. It isolates the violence of the reaction.
 
 * **H-101 (Hopper):** Stores 10g thermite pebbles.
 * **V-101 (Rotary Feed):** The "Pacemaker." It rotates once per second (1 Hz). It drops a pebble *only* when the system pressure is low (reset phase).
-
-
 * **IGN-202 (Arc Igniter):** The "Spark Plug." Fires 50ms after V-101 drops the pebble.
-* 
-**Refractory Cup:** As discussed, this holds the pebble above the water line to create the "Steam Cushion" and prevent condensation collapse.
+* **Refractory Cup:** As discussed, this holds the pebble above the water line to create the "Steam Cushion" and prevent condensation collapse.
 
 
 
@@ -101,8 +98,7 @@ This solves the Phase II integration problem using a "Double Dump" airlock syste
 1. **Stage 1:** Molten iron/alumina falls into the *Intermediate Chamber*. V-302 is Open, V-303 is Closed.
 2. **Stage 2:** V-302 Closes (sealing the U-Tube).
 3. **Stage 3:** V-303 Opens, dropping the hot slag into the **H2 Reactor (R-700)**.
-4. 
-**Stage 4:** Steam (from V-701) hits the hot iron in R-700, creating Hydrogen.
+4. **Stage 4:** Steam (from V-701) hits the hot iron in R-700, creating Hydrogen.
 
 
 
@@ -130,5 +126,4 @@ To make this real, here is exactly what the control computer (PLC) does every se
 
 1. **Decoupled Physics:** By separating the "Explosion" (Zone 1) from the "Hydrogen Generation" (Zone 3), we don't have to worry about hydrogen gas exploding inside the main cylinder.
 2. **Energy Recovery:** We capture energy twice. Once as kinetic push (electricity), and again as thermal transfer (the hot slag making H2).
-3. 
-**Safety:** If the pressure gets too high (e.g., pebble feed error), **PT-201** triggers an emergency stop, and **Rupture Disks** (not shown, but standard) blow to save the vessel.
+3. **Safety:** If the pressure gets too high (e.g., pebble feed error), **PT-201** triggers an emergency stop, and **Rupture Disks** (not shown, but standard) blow to save the vessel.
